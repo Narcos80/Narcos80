@@ -1,0 +1,55 @@
+I like to inform everyone from 🆕 Be
+ careful when you hear my name 
+from today,
+ these applications will be killed.
+ I say it publicly, and I am not a coward
+ like you. I sabotage and express  
+
+  With my Regarding Narcos ....,.
+
+  >>>>> 🪦 Grave_Digger <<<<<<
+
+     💀 Is Back 💀
+_________________________________________
+
+## Issue explanation (write below this line)
+
+
+
+## Exception
+* __App Name:__ مدير ملفات Amaze
+* __Package:__ com.amaze.filemanager
+* __Version:__ 3.8.5
+* __User Action:__ UI Error
+* __Request:__ Application crash
+* __OS:__ Linux Android 11 - 30
+* __Device:__ NX659J-EEA
+* __Model:__ NX659J
+* __Product:__ NX659J-EEA
+<details><summary><b>Crash log </b></summary><p>
+
+```
+java.lang.NullPointerException: Attempt to invoke virtual method 'int android.content.Context.getColor(int)' on a null object reference
+	at androidx.core.content.ContextCompat$Api23Impl$$ExternalSyntheticApiModelOutline1.m(Unknown Source:0)
+	at com.amaze.filemanager.utils.Utils.getColor(Utils.java:141)
+	at com.amaze.filemanager.ui.fragments.MainFragment.initNoFileLayout(MainFragment.java:713)
+	at com.amaze.filemanager.ui.fragments.MainFragment.reloadListElements(MainFragment.java:878)
+	at com.amaze.filemanager.ui.fragments.MainFragment.setListElements(MainFragment.java:739)
+	at com.amaze.filemanager.ui.fragments.MainFragment.lambda$loadlist$3(MainFragment.java:611)
+	at com.amaze.filemanager.ui.fragments.MainFragment.$r8$lambda$9qQv21X8JwPlLXi_cDXfu4p-_VI(Unknown Source:0)
+	at com.amaze.filemanager.ui.fragments.MainFragment$$ExternalSyntheticLambda6.onAsyncTaskFinished(Unknown Source:8)
+	at com.amaze.filemanager.asynchronous.asynctasks.LoadFilesListTask.onPostExecute(LoadFilesListTask.java:206)
+	at com.amaze.filemanager.asynchronous.asynctasks.LoadFilesListTask.onPostExecute(LoadFilesListTask.java:85)
+	at android.os.AsyncTask.finish(AsyncTask.java:771)
+	at android.os.AsyncTask.access$900(AsyncTask.java:199)
+	at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:788)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:262)
+	at android.app.ActivityThread.main(ActivityThread.java:8999)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:612)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:963)
+
+```
+</details>
+<hr>
